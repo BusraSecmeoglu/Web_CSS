@@ -1,0 +1,56 @@
+﻿div{
+    width:200px;
+    height:150px;
+    background-color: steelblue;
+    border:4px solid black;
+    border-radius:15px;
+/* divleri yanyana sıralıyor*/
+    float:left;
+}
+    div:hover {
+        cursor: pointer;
+        background-color: red;
+        transition: 1s;
+        /*transition-duration:1s;*/
+        transform:rotate(360deg)
+
+    }
+
+ #animasyon{
+     /*position:absolute;*/
+ }
+ #animasyon:hover{
+     animation: AnimasyonYap 10s;
+ }
+
+ @keyframes AnimasyonYap{
+     0%{
+         /*margin-top:0px;
+         margin-left:200px;*/
+         transform:translate(0px,0px)
+     }
+    25% {
+        /*margin-top: 0px;
+        margin-left: 400px;*/
+        background-color: lightblue;
+        transform: translate(200px,0px)
+    }
+    50% {
+        /*margin-top: 600px;
+        margin-left: 400px;*/
+        background-color: khaki;
+        transform: translate(200px,150px)
+    }
+    75% {
+        /*margin-top: 600px;
+        margin-left: 200px;*/
+        background-color: darkgrey;
+        transform: translate(0px,150px)
+    }
+    100% {
+        /*margin-top: 0px;
+        margin-left: 200px;*/
+        background-color: tan;
+        transform: translate(0px,0px)
+    }
+ }

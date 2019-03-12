@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <!--bütün paragrafların aynı özelliğe sahip olmasını sağlıyor-->
+
+    <style>
+
+        p {
+            font-size: 20px;
+            font-family: 'Comic Sans MS';
+            color: red;
+            background-color: darkgray;
+            text-align: center
+        }
+
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            border: 1px solid dashed;
+            outline-style: dotted;
+            outline-color: aqua;
+        }
+
+        /*o id'ye sahip div'e özellik tanımlıyor.*/
+        #ozelDiv {
+            background-color: cyan;
+        }
+
+        /*Class olan divlere özellik atıyor*/
+        .ortak {
+            background-color: green;
+            border: 10px solid black;
+            border-radius: 15px;
+            border-bottom-left-radius: 15px;
+            box-shadow: gray 10px 10px 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <!--CSS(Cascading Style Sheet): Html elemanlarına yani taglerine still vermek için kullanılan bir yapıdır.CSS 3'e ayırılır
+        1.Inline css:css kodlarının html elemanının attribute'una yazıldığı css elemanıdır.
+        2.Internal css: css kodlarının html sayfasındaki head düğümü arasına style düğümü açılarak style düğüm içerisinde yazılan css tipidir.
+        3.External css: css kodlarının projede ayrı bir css dosyasında yazıldığı css tipidir.Bu dosyada sadece css kodları yazılır.-->
+    <p style="font-size:20px">ilk css verdiğimiz p elemanı.</p>
+    <br />
+    <p style="font-size:20px;font-family:'Berlin Sans FB'">ilk css verdiğimiz p elemanı.</p>
+    <br />
+    <p style="font-size:20px;font-family:'Berlin Sans FB'; color:yellow;text-align:center">ilk css verdiğimiz p elemanı.</p>
+    <p>
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut libero nec quam consequat rhoncus. In ac scelerisque eros. Suspendisse massa nibh, mattis eget elit vitae, facilisis interdum lectus. Curabitur leo nisi, posuere sed efficitur vel, blandit vel lectus. Aliquam tristique tortor eu metus efficitur cursus. Praesent iaculis lacinia bibendum. Integer eu lobortis lacus, vel iaculis enim. Aliquam erat volutpat. Proin varius ante a erat bibendum tempor. Mauris auctor nunc mauris, a rhoncus augue finibus vitae. In et magna non nibh varius elementum. Sed blandit consequat sapien, at iaculis sapien. Suspendisse eu dui quis tellus lobortis viverra ut quis orci. In accumsan ex maximus justo rutrum, vestibulum finibus est blandit. Vivamus vitae purus libero.
+    </p>
+    <p>
+
+        Quisque vehicula imperdiet vestibulum. Cras nisi justo, fringilla nec tellus id, viverra semper est. In rhoncus vel magna sed congue. Nulla dui ligula, blandit eget aliquet sed, faucibus at neque. Nunc nec pellentesque nibh. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas scelerisque lobortis felis, ut gravida lorem consequat vel. Quisque sit amet dui ac magna pretium malesuada. Aliquam vitae mauris leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla elementum elit vitae ipsum auctor, et bibendum odio feugiat.
+    </p>
+    <p>
+        Phasellus ac odio imperdiet, tincidunt ipsum vitae, luctus nunc. Donec laoreet sodales quam sed hendrerit. Aenean nisi sem, semper quis dictum id, tincidunt in dui. Suspendisse ornare, ex vitae sodales cursus, est nunc venenatis turpis, quis maximus ligula nisl quis augue. Nulla augue quam, suscipit non nunc sit amet, pulvinar accumsan ante. Etiam eu consectetur sem, et aliquet massa. Fusce sed gravida odio. Duis dictum porta dolor, quis lacinia diam dignissim non. Duis elementum neque quis nulla pulvinar tincidunt. Sed rutrum et dolor eget posuere. Sed luctus porta dictum. Vestibulum eu tortor quis nunc malesuada condimentum ut nec turpis. Aenean pellentesque pretium ante. Etiam ac nunc cursus sem efficitur vulputate. Fusce blandit elit eget vehicula consequat. Duis egestas a ipsum ac lobortis.
+    </p>
+    <p>
+        Nunc ut velit tempor, feugiat massa id, venenatis augue. Vestibulum dignissim justo id felis congue viverra ac fermentum est. Vestibulum mollis neque sit amet quam congue cursus. Aliquam elementum vel est nec congue. Donec ultrices fringilla eros, vel porttitor est. Vestibulum sed viverra felis. Maecenas vel gravida massa. Fusce odio turpis, vehicula at neque sit amet, tincidunt malesuada justo. Nunc in lectus facilisis erat lacinia interdum. Nulla eget nibh cursus, pellentesque tellus quis, gravida leo. Etiam a tellus ut diam varius ultricies sit amet sed nulla.
+    </p>
+    <p>
+        Mauris auctor, diam quis sodales suscipit, sem mi dictum leo, a malesuada ante sem imperdiet sem. Quisque id arcu vitae mi finibus pharetra nec nec libero. Sed cursus dictum neque, sit amet efficitur purus tincidunt nec. Donec vitae interdum lectus. Cras finibus ullamcorper mattis. Maecenas eleifend sollicitudin enim, sit amet ornare erat fermentum vitae. Cras interdum purus id tortor eleifend interdum. Nam congue felis vitae quam faucibus laoreet nec at arcu. Morbi non nisi maximus, ultricies orci ac, gravida libero.
+    </p>
+
+    <div></div>
+    <br />
+    <div></div>
+    <br />
+    <div id="ozelDiv"></div>
+    <br />
+    <div></div>
+    <br />
+    <div class="ortak div"></div>
+    <br />
+    <div class="ortak div"></div>
+    <br />
+    <div class="ortak div"></div>
+    <br />
+    <div></div>
+
+</body>
+</html>
